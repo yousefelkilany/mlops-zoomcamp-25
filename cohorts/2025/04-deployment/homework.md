@@ -17,7 +17,7 @@ Run this notebook for the March 2023 data.
 What's the standard deviation of the predicted duration for this dataset?
 
 * 1.24
-* 6.24
+* [x] 6.24
 * 12.28
 * 18.28
 
@@ -50,7 +50,7 @@ What's the size of the output file?
 * 36M
 * 46M
 * 56M
-* 66M
+* [x] 66M
 
 __Note:__ Make sure you use the snippet above for saving the file. It should contain only these two columns. For this question, don't change the
 dtypes of the columns and use `pyarrow`, not `fastparquet`. 
@@ -60,8 +60,10 @@ dtypes of the columns and use `pyarrow`, not `fastparquet`.
 
 Now let's turn the notebook into a script. 
 
-Which command you need to execute for that?
-
+Which command you need to execute for that?  
+```
+jupyter nbconvert --to script starter.ipynb
+```
 
 ## Q4. Virtual environment
 
@@ -74,8 +76,8 @@ After installing the libraries, pipenv creates two files: `Pipfile`
 and `Pipfile.lock`. The `Pipfile.lock` file keeps the hashes of the
 dependencies we use for the virtual env.
 
-What's the first hash for the Scikit-Learn dependency?
-
+What's the first hash for the Scikit-Learn dependency?  
+`014e07a23fe02e65f9392898143c542a50b6001dbe89cb867e19688e468d049b`
 
 ## Q5. Parametrize the script
 
@@ -87,7 +89,7 @@ Run the script for April 2023.
 What's the mean predicted duration? 
 
 * 7.29
-* 14.29
+* [x] 14.29
 * 21.29
 * 28.29
 
@@ -130,7 +132,7 @@ to use the pickle file already in the image.
 Now run the script with docker. What's the mean predicted duration
 for May 2023? 
 
-* 0.19
+* [x] 0.19
 * 7.24
 * 14.24
 * 21.19
