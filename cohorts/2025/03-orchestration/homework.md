@@ -9,13 +9,13 @@ We'll use [the same NYC taxi dataset](https://www1.nyc.gov/site/tlc/about/tlc-tr
 You can use the same tool you used when completing the module,
 or choose a different one for your homework.
 
-What's the name of the orchestrator you chose? 
-
+What's the name of the orchestrator you chose?  
+`Mage`
 
 ## Question 2. Version
 
-What's the version of the orchestrator? 
-
+What's the version of the orchestrator?  
+`v0.9.73`
 
 ## Question 3. Creating a pipeline
 
@@ -25,7 +25,7 @@ How many records did we load?
 
 - 3,003,766
 - 3,203,766
-- 3,403,766
+- [x] 3,403,766
 - 3,603,766
 
 (Include a print statement in your code)
@@ -59,7 +59,7 @@ What's the size of the result?
 
 - 2,903,766
 - 3,103,766
-- 3,316,216 
+- [x] 3,316,216 
 - 3,503,766
 
 ## Question 5. Train a model
@@ -77,7 +77,7 @@ What's the intercept of the model?
 Hint: print the `intercept_` field in the code block
 
 - 21.77
-- 24.77
+- [x] 24.77
 - 27.77
 - 31.77
 
@@ -89,7 +89,7 @@ Find the logged model, and find MLModel file. What's the size of the model? (`mo
 
 * 14,534
 * 9,534
-* 4,534
+* [x] 4,534
 * 1,534
 
 
