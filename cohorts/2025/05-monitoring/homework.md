@@ -12,7 +12,7 @@ What is the shape of the downloaded data? How many rows are there?
 
 * 72044
 * 78537 
-* 57457
+* [x] 57457
 * 54396
 
 
@@ -22,8 +22,8 @@ Let's expand the number of data quality metrics we’d like to monitor! Please a
 
 Hint: explore evidently metric `ColumnQuantileMetric` (from `evidently.metrics import ColumnQuantileMetric`) 
 
-What metric did you choose?
-
+What metric did you choose?  
+`MedianValue`
 
 ## Q3. Monitoring
 
@@ -33,7 +33,7 @@ What is the maximum value of metric `quantile = 0.5` on the `"fare_amount"` colu
 
 * 10
 * 12.5
-* 14.2
+* [x] 14.2
 * 14.8
 
 
@@ -46,7 +46,7 @@ Where to place a dashboard config file?
 
 * `project_folder` (05-monitoring)
 * `project_folder/config`  (05-monitoring/config)
-* `project_folder/dashboards`  (05-monitoring/dashboards)
+* [x] `project_folder/dashboards`  (05-monitoring/dashboards)
 * `project_folder/data`  (05-monitoring/data)
 
 
